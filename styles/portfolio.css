@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -24,6 +28,11 @@
   font-size: 20px;
   color: white;
   border: none;
+}
+.btn-primary:hover {
+  color: #fd6e0a;
+  background-color: #fff8f3;
+  border: 1px solid #fd6e0a;
 }
 
 .section-title {
